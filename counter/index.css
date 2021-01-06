@@ -1,0 +1,47 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210deg 36% 96%);
+    line-height: 5rem;
+}
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+.container{
+   text-align: center;
+   letter-spacing: 0.5rem;
+}
+
+h1{
+    color: hsl(205deg 86% 17%);
+    font-size: 4rem;
+}
+h1 + div {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn{
+    padding: 8px 10px;
+    font-size: 0.825rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background: transparent;
+    border: 2px solid #222;
+    cursor: pointer;
+    margin-right: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    background-color: #222;
+    color: #fff;
+}
